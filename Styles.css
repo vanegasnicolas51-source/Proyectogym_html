@@ -1,0 +1,62 @@
+/* Ajusta la fuente y elimina márgenes del navegador */
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra básico */
+    margin: 0; /* Elimina el margen superior */
+    padding: 0; /* Elimina padding del cuerpo */
+    text-align: center; /* Centra todo el texto */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #1e1e1e; 
+    color: white; 
+    padding: 20px; 
+}
+
+/* Estilos del menú */
+nav a {
+    color: white; 
+    text-decoration: none; 
+    margin: 10px; 
+    font-weight: bold; 
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 20px; 
+}
+
+/* Imágenes */
+img {
+    width: 250px; 
+    height: auto; 
+    border: 2px solid black; 
+    margin: 10px; 
+}
+
+/* Estilo para el contenedor de cada imagen */
+.bloque {
+    margin-bottom: 20px; 
+}
+
+/* Estilos del botón */
+.boton {
+    display: inline-block; 
+    background-color: #007bff; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none;
+    border-radius: 5px; 
+}
+
+
+.boton:hover {
+    background-color: #0056b3; 
+}
+
+
+footer {
+    background-color: #1e1e1e; 
+    color: white; 
+    padding: 10px; 
+}
